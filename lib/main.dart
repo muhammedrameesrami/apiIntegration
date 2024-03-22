@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'auth/screen/auth_scree.dart';
 import 'home/screen/todoList.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: const ToDoList(),
+      home:  authScreen(),
     );
   }
 }
