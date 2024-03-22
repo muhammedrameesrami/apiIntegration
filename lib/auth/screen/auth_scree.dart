@@ -63,7 +63,7 @@ class _authScreenState extends State<authScreen> {
           },
             child: Container(
               height: 50,
-              decoration: BoxDecoration(color: Colors.purple.shade200,
+              decoration: BoxDecoration(color: Colors.purple.shade800,
                 borderRadius: BorderRadius.circular(10)
               ),
               child: Center(child: Text('Sign Up'),),
